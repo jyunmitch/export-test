@@ -1,0 +1,10 @@
+descriptorVersion: v4
+name: pn-3c07adf0-fac54a9f-entando-app-builder-menu-bff
+image: 'entando/app-builder-menu-bff@sha256:0642ce789fb639c5dda6b039c224f2245afecf5923db9dc165f81c138bd1609b'
+dbms: none
+healthCheckPath: /health
+ingressPath: /entando-epc-bootstrap-3c07adf0/app-builder-menu-bff
+permissions: []
+environmentVariables:
+  - name: ENTANDO_ECR_INGRESS_URL
+    value: 'http://quickstart.192.168.64.2.nip.io/digital-exchange'
